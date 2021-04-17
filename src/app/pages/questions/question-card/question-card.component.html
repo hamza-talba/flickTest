@@ -1,0 +1,12 @@
+<mat-card>
+    <mat-card-content>
+         <h2>Quiz</h2>
+   
+             <mat-label [innerHtml]="question?.question"></mat-label>
+                <mat-radio-group aria-label="Select an option"(change)="getSelectedAnswer($event)">
+                    <mat-radio-button *ngFor="let answer of answers" [value]="answer" [selected]="'false'">{{answer.value}}</mat-radio-button>
+                </mat-radio-group>
+         
+        <button mat-raised-button color="primary" (click)="_next()">Submit</button>
+     </mat-card-content>
+</mat-card>

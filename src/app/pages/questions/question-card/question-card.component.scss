@@ -1,0 +1,23 @@
+mat-radio-group {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+mat-radio-button {
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  mat-radio-group {
+    min-width: 100%;
+  }
+  mat-radio-group {
+    flex-direction: column;
+  }
+}
+
+mat-card-content {
+  text-align: center;
+}

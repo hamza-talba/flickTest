@@ -1,0 +1,1 @@
+<app-question-card [question]="(questions$ | async)&&(questions$ | async)[questionNum]" (next)="nextQuestion($event)"></app-question-card>

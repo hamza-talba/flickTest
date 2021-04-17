@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+  mat-sidenav {
+    min-width: 90%;
+  }
+  .container {
+    max-width: 100%;
+  }
+}
+mat-sidenav {
+  min-width: 15%;
+}
+.container {
+  height: calc(100vh - 100px);
+  max-width: 80%;
+  margin: auto;
+  padding: 1rem;
+}

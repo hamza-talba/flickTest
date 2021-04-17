@@ -1,0 +1,18 @@
+div {
+  text-align: center;
+  h1 {
+    min-width: 50%;
+    height: auto;
+    padding: 10%;
+    margin: auto;
+  }
+  small {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    a {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

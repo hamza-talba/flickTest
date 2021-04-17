@@ -1,0 +1,12 @@
+<mat-card>
+    <mat-card-content>
+        <h2>Results</h2>
+        <mat-nav-list *ngIf="results?.length != 0;else noData">
+            <a mat-list-item *ngFor="let r of results"> {{r.result}} </a>
+        </mat-nav-list>
+    </mat-card-content>
+</mat-card>
+
+<ng-template #noData>
+    No data !
+</ng-template>
